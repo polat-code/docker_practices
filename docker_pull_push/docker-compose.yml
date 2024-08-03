@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+  test_app:
+    image: ozgurhan45/test_app
+    build:
+      context: .
+      #dockerfile: /opt/app_docs/test_app/Dockerfile
